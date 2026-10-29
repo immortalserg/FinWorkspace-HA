@@ -1,5 +1,5 @@
 name: HomeFinance
-version: "1.0.0"
+version: "1.0.1"
 slug: homefinance
 description: Personal finance and investment management
 url: https://github.com/immortalserg/HomeFinance
@@ -20,6 +20,9 @@ options:
   openrouter_api_key: ""
   ai_monthly_cap_usd: ""
   admin_emails: ""
+  initial_admin_email: ""
+  initial_admin_name: ""
+  initial_admin_password: ""
   public_base_url: ""
   frontend_base_url: ""
   legal_operator_name: ""
@@ -38,6 +41,9 @@ schema:
   openrouter_api_key: str
   ai_monthly_cap_usd: str
   admin_emails: str
+  initial_admin_email: str
+  initial_admin_name: str
+  initial_admin_password: password
   public_base_url: str
   frontend_base_url: str
   legal_operator_name: str
