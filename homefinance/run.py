@@ -69,6 +69,9 @@ os.environ["NOTIFICATION_ENCRYPTION_KEY"] = persistent_secret(
 
 # Постоянное хранилище Home Assistant.
 os.environ.update({
+    # The 1.4.x settings store, encrypted secrets and uploaded bank key
+    # must live on Home Assistant's persistent data volume.
+    "APP_DATA_DIR": "/data",
     "DATABASE_URL": "sqlite:////data/finance.db",
     "UPLOAD_DIR": "/data/uploads",
     "DOCUMENTS_DIR": "/data/documents",
