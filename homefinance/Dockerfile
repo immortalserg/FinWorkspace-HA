@@ -1,7 +1,7 @@
-FROM ghcr.io/immortalserg/homefinance:1.4.0
+FROM ghcr.io/immortalserg/homefinance:1.4.1
 
 LABEL io.hass.type="app" \
-      io.hass.version="1.0.3" \
+      io.hass.version="1.0.4" \
       io.hass.arch="amd64|aarch64" \
       org.opencontainers.image.source="https://github.com/immortalserg/HomeFinance-HA"
 

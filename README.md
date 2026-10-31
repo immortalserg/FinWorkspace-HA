@@ -54,7 +54,7 @@ database and preserve the original `SECRET_KEY` and
 ## Releases
 
 The `homefinance/config.yaml` version must match the Git tag without its
-leading `v`. Pushing a matching tag (for example, `v1.0.3`) builds and
+leading `v`. Pushing a matching tag (for example, `v1.0.4`) builds and
 publishes versioned and `latest` images for linux/amd64 and linux/arm64.
-The Home Assistant image is built on top of the matching version of
-`ghcr.io/immortalserg/homefinance`.
+The Home Assistant image is built on top of the matching application image,
+currently `ghcr.io/immortalserg/homefinance:1.4.1`.
