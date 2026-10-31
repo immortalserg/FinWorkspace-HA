@@ -1,21 +1,22 @@
-# HomeFinance for Home Assistant
+# FinWorkspace for Home Assistant
 
-Home Assistant app based on the multilingual fork:
-https://github.com/immortalserg/HomeFinance
+FinWorkspace for Home Assistant — a self-hosted personal finance and investment workspace.
+
+This Home Assistant add-on packages the FinWorkspace application. FinWorkspace is an independent continuation of the original [HomeFinance project by Lefyd24](https://github.com/Lefyd24/HomeFinance).
 
 ## Install
 
-1. Ensure the package `ghcr.io/immortalserg/homefinance-ha` is public.
+1. Ensure the package `ghcr.io/immortalserg/finworkspace-ha` is public.
 2. In Home Assistant open Settings -> Apps -> App repositories.
-3. Add https://github.com/immortalserg/HomeFinance-HA.
-4. Refresh the app store, install HomeFinance and start it.
+3. Add https://github.com/immortalserg/FinWorkspace-HA.
+4. Refresh the app store, install FinWorkspace and start it.
 5. Open the app at http://HOME_ASSISTANT_IP:8223.
 
 ## Configuration
 
 Application settings such as SMTP, AI provider, notification preferences,
 legal details, URLs, limits and administrator email list are configured
-inside HomeFinance under **Admin -> Application Settings**.
+inside FinWorkspace under **Admin -> Application Settings**.
 
 The Home Assistant app configuration intentionally contains only the
 three fields used to bootstrap the first administrator on a fresh database:
@@ -53,8 +54,8 @@ database and preserve the original `SECRET_KEY` and
 
 ## Releases
 
-The `homefinance/config.yaml` version must match the Git tag without its
-leading `v`. Pushing a matching tag (for example, `v1.0.4`) builds and
+The `finworkspace/config.yaml` version must match the Git tag without its
+leading `v`. Pushing a matching tag (for example, `v1.1.0`) builds and
 publishes versioned and `latest` images for linux/amd64 and linux/arm64.
 The Home Assistant image is built on top of the matching application image,
-currently `ghcr.io/immortalserg/homefinance:1.4.1`.
+currently `ghcr.io/immortalserg/finworkspace:1.5.0`.

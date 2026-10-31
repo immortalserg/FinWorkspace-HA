@@ -17,7 +17,7 @@ def read_options():
     except FileNotFoundError:
         return {}
     except Exception as exc:
-        print(f"[HomeFinance] Cannot read options: {exc}", file=sys.stderr)
+        print(f"[FinWorkspace] Cannot read options: {exc}", file=sys.stderr)
         return {}
 
 
@@ -107,7 +107,7 @@ set_option("smtp_password", "SMTP_PASSWORD")
 set_option("smtp_from", "SMTP_FROM")
 set_option("smtp_use_tls", "SMTP_USE_TLS", as_bool)
 
-print("[HomeFinance] Starting; persistent data directory: /data",
+print("[FinWorkspace] Starting; persistent data directory: /data",
       flush=True)
 
 os.chdir("/app")
