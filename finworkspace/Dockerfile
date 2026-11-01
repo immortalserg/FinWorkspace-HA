@@ -1,7 +1,7 @@
-FROM ghcr.io/immortalserg/finworkspace:i18n-2b064d6cb5e28695b1fa2dbac0fc55c628f9104c
+FROM ghcr.io/immortalserg/finworkspace:mobile-auth-1
 
 LABEL io.hass.type="app" \
-      io.hass.version="1.1.1" \
+      io.hass.version="1.1.2" \
       io.hass.arch="amd64|aarch64" \
       org.opencontainers.image.source="https://github.com/immortalserg/FinWorkspace-HA"
 
