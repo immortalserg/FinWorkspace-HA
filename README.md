@@ -58,4 +58,4 @@ The `finworkspace/config.yaml` version must match the Git tag without its
 leading `v`. Pushing a matching tag (for example, `v1.1.0`) builds and
 publishes versioned and `latest` images for linux/amd64 and linux/arm64.
 The Home Assistant image is built on top of the matching application image,
-currently `ghcr.io/immortalserg/finworkspace:1.5.0`.
+`ghcr.io/immortalserg/finworkspace:1.6.0` for app release `1.1.5`.
