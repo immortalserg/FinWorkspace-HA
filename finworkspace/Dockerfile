@@ -1,7 +1,7 @@
-FROM ghcr.io/immortalserg/finworkspace:1.6.1
+FROM ghcr.io/immortalserg/finworkspace:1.6.2
 
 LABEL io.hass.type="app" \
-      io.hass.version="1.1.6" \
+      io.hass.version="1.1.7" \
       io.hass.arch="amd64|aarch64" \
       org.opencontainers.image.source="https://github.com/immortalserg/FinWorkspace-HA"
 
