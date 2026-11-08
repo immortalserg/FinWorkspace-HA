@@ -1,4 +1,14 @@
-# FinWorkspace for Home Assistant
+# FinWorkspace-HA — archived / moved
+
+> **This repository is no longer maintained.** The Home Assistant add-on has moved to **[immortalserg/ha-apps](https://github.com/immortalserg/ha-apps/tree/main/finworkspace)**. Please use [ha-apps](https://github.com/immortalserg/ha-apps) for installation, updates, bug reports and new development.
+>
+> **Репозиторий больше не поддерживается.** Дополнение FinWorkspace перенесено в **[immortalserg/ha-apps](https://github.com/immortalserg/ha-apps)**. Для установки, обновлений и сообщений об ошибках используйте новый репозиторий.
+>
+> Existing Home Assistant installations are **not automatically migrated** by this link. Back up persistent add-on data before switching repositories. The image name remains `ghcr.io/immortalserg/finworkspace-ha`.
+
+---
+
+## Previous documentation (historical)
 
 FinWorkspace for Home Assistant — a self-hosted personal finance and investment workspace.
 
